@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background: #edeaff;
+}
+.stopwatch{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./stopwatch_img/images/background.png);
+    background-size: cover;
+    width: 90%;
+    min-width: 600px;
+    background-position: center;
+    margin: 200px auto 0;
+    padding: 40px 0;
+}
+.stopwatch h1{
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttons img{
+    width: 50px;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+    margin: 0 30px;
+}

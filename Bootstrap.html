@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <style>
+        .container-md{
+            margin-top: 200px;
+            background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(./stopwatch_img/images/background.png);
+            background-size: cover;
+            background-position: center;
+        }
+        #img1, #img2{
+            width: 50px;
+            height: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-md">
+       <h1 class="text-center text-white"><span class="align-middle">00:00:00</span></h1>
+       <div class="buttons p-3 d-flex justify-content-center mt-5">
+            <img src="./stopwatch_img/images/stop.png" alt="" id="img1" class="my-3">
+            <img src="./stopwatch_img/images/start.png" alt="" style="width: 80px; height: 80px;" class="mx-5">
+            <img src="./stopwatch_img/images/reset.png" alt="" id="img2" class="my-3">
+        </div>
+    </div>
+    <!-- <span class="align-baseline">baseline</span>
+<span class="align-top">top</span>
+<span class="align-middle">middle</span>
+<span class="align-bottom">bottom</span>
+<span class="align-text-top">text-top</span>
+<span class="align-text-bottom">text-bottom</span> -->
+</body>
+</html>
